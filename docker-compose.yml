@@ -1,0 +1,7 @@
+version: '2.4'
+
+services:
+  html-server:
+    image: html-server:v1
+    ports:
+      - "44001:80"
