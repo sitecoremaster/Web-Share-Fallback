@@ -5,9 +5,9 @@ var shareUrl = 'https://www.test.com/whatever';
 var shareTitle = document.getElementsByTagName("title")[0].innerHtml;
 var shareDescription = document.querySelector("meta[name=description]").getAttribute("content");;
 
-// window.onload = function () {
-//     window.history.pushState({}, shareTitle, shareUrl);
-// }
+window.onload = function () {
+    window.history.pushState({}, shareTitle, shareUrl);
+}
 
 //replace with your publisher ID
 //it's in your profile setting
